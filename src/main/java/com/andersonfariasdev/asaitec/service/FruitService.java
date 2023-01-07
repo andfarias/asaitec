@@ -26,10 +26,6 @@ public class FruitService {
             int action = scanner.nextInt();
             switch (action) {
                 case 1 -> save(scanner);
-
-//                case 2:
-//                    update(scanner);
-//                    break;
                 case 3 -> view();
                 case 4 -> delete(scanner);
                 default -> system = false;

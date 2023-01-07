@@ -5,10 +5,12 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 @Entity
-@Table( name = "order_asaitec")
+@Table(name = "order_asaitec")
 @Data
 public class Order implements Serializable {
 

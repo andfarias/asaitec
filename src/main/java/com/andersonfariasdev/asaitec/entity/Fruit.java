@@ -20,7 +20,7 @@ public class Fruit implements Serializable {
     private Double price;
 
     @JsonIgnore
-    @OneToMany(mappedBy="primaryKey.fruit")
+    @OneToMany(mappedBy = "primaryKey.fruit")
     private List<OrderFruit> itens = new ArrayList<>();
 
     @Override
